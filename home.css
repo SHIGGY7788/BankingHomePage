@@ -1,0 +1,134 @@
+body {
+    background-color: #112;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account-container {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.account {
+    margin: 1rem;
+}
+
+.account-title {
+    background-color: #223;
+    color: white;
+    font-weight: bold;
+    font-size: 125%;
+    padding: 1rem;
+    width: 40rem;
+    text-align: center;
+    border: solid black 4px;
+}
+
+.account-table {
+    background-color: #223;
+    border: solid black 4px;
+    width: 42rem;
+    max-height: 35rem;
+    font-size: 125%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    overflow: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #223;
+    color: white;
+}
+
+.savings {
+    margin-left: 1rem;
+}
+
+.welcome {
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.nav {
+    border: solid black;
+    box-shadow: black 3px 3px 3px;
+    border-radius: 15px;
+    background-color: #223;
+    display: flex;
+    justify-content: space-between;
+    padding: .75rem;
+    float: left;
+    margin-left: -90%;
+    margin-top: -25%;
+}
+ul {
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: transparent;
+}
+li {
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+li + li {
+    margin-top: .75rem;
+}
+a {
+    text-decoration: none;
+    color: #f1f1f1;
+    background-color: transparent;
+}
+i {
+    font-size: 200%;
+}
+li:active,
+li:focus,
+li:hover {
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.logout {
+    position: absolute;
+    margin-top: -32%;
+    margin-left: 30%;
+    height: 3rem;
+    width: 7rem;
+    border: solid black 4px;
+    border-radius: 10px;
+    background-color: #223  ;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    transition: transform 0.5s ease-in-out;
+}
+.logout:hover {
+    transform: scale(1.25);
+    transition-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
